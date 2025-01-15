@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 7rem;
+    color: white;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    transition: 0.3s;
+    letter-spacing: 15px;
+}
+.content h1:hover{
+    color: white;
+}
+.content a{
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    padding: 4px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content a:hover{
+    background-color: white;
+    color: black;
+}
