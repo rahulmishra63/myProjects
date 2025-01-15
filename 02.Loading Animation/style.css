@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.loader div{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    animation: load 1s ease infinite;
+}
+.loader .loading2{
+    animation-delay: 0.3s;
+}
+.loader .loading3{
+    animation-delay: 0.5s;
+}
+.loader .loading4{
+    animation-delay: 0.7s;
+}
+
+@keyframes load {
+    0%{
+        width: 30px;
+        height: 30px;
+    }
+    50%{
+        width: 40px;
+        height: 40px;
+    }
+}
