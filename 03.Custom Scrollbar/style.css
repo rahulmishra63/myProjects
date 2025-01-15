@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    font-size: 2rem;
+    max-width: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 10px 0;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-scrollbar{
+    width: 40px;
+    background-color: rgb(55, 107, 140);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(176, 114, 114);
+    border-radius: 20px;
+}
